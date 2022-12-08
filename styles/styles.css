@@ -49,25 +49,47 @@ body {
     text-decoration: none;
     color: var(--light);
     text-transform: uppercase;
-
 }
 
 .low-logo {
     color: var(--primary-brand);
     text-transform: uppercase;
 }
+.main-nav {
+    display: flex;
+    align-items: center;
+    
+}
+.site-nav {
+    display: flex;   
+    margin-left: 70px; 
+}
+.site-nav li {
+    display: block;
+    margin-right: 40px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+.site-nav .item:last-child {
+    margin-right 0px;
+}
 
 .nav-links {
+    
     text-decoration: none;
     font-family: 'Roboto';
-
     font-weight: 600;
     font-size: 16px;
     line-height: 1.5;
     color: var(--dark);
-
-}
-
+    }
+    .mail{
+        display: flex;
+        margin-left: auto;
+    }
+    .mail .item + .item{ 
+        margin-left: 40px;
+    }
 .nav-links:hover,
 .nav-links:focus {
     color: var(--primary-brand);
@@ -142,20 +164,73 @@ ul {
     cursor: pointer;
     border: none;
 }
-
 .main-button:hover,
 .main-button:focus {
     background-color: var(--primary-brand);
     color: #ffffff
 }
-
+.feature_list {
+    width: 1440px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.feature_list .item {
+    width: 264px;
+    margin-right: 24px;
+    margin-bottom: 120px;
+}
+.section-list {  
+    display: block;
+    justify-content: center;
+    width: 1440px;
+    padding-left: 132px;
+    padding-right: 132px;
+    margin-top: 120px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.card-title {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 72px;
+}
+.card-title_list {
+    width: 1440px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-right: 24px;
+}
 .team-list {
-    background-color: var(--light);
+    width: 1440px;
+    padding-left: 132px;
+    padding-right: 132px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.card-title_team {
+    display: flex;
+    justify-content: center;
+    margin-top: 120px;
+    margin-bottom: 72px;
+
 }
 
+.flex_container {
+     display: flex;
+     flex-wrap: wrap;
+     background-color: var(--light);
+    }
 .team-list-item {
-    background-color: #ffffff;
-}
+        width: 264px;
+        margin-right: 24px;
+        margin-bottom: 120px;
+        background-color: #ffffff;
+    }
+.team-list-item:nth-child(4n) {
+        margin-right: 0;
+     }
 
 .footer {
     background-color: var(--dark);
@@ -167,18 +242,35 @@ ul {
     line-height: 1.5;
 }
 
-.hero {
+.hero { 
+    width: 1440px;
+    height: 603px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-color: var(--dark);
 }
 
 .hero-title {
-
-
     font-weight: 600;
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.3px;
     color: #ffffff;
+    margin-top: 192px;
+    margin-bottom: 48px; 
+    margin-top: 192px;
+    margin-left: 474px;
+    margin-right: 474px;
+}
+.main-button
+{
+    margin-bottom: 192px;
+    border-radius: 4px;
+}
+.feature, .pbl{
+    display: none;
+
 }
 .section-page{
     padding-top: 96px;
@@ -186,10 +278,11 @@ ul {
 
 }
 .container{
-    width: 1158px;
+    width: 1198px;
     padding: 0 15px;
     margin-left: auto;
     margin-right: auto;
+    
 }
 .portfolio-btn_list {
     display: flex;
@@ -210,7 +303,7 @@ ul {
 }
 .portfolio-cards_list {
     display: flex;
-    justify-content: center;
+    flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
     flex-wrap: wrap;
@@ -225,4 +318,19 @@ ul {
 .portfolio-cards_box {
     padding: 32px 16px;
 }
+.footer {
+    width: 1440px;
+    display: flex;
+    flex-direction: column;
+    
+    }
+.foot-logo {
+    margin-top: 100px; 
+    margin-left: 156px;
+    
+}
+.footer-text {
+    padding: 16px 1020px 100px 156px;
+        
 
+    }
