@@ -18,8 +18,9 @@
         
   </head>
   <body>
-    <!--main page-->
+        <!--main page-->
     <header class="header">
+      <nav class="container">
       <div class="container main-nav">
       <a href="./index.html" class="logo"><span class="low-logo">web</span>studio</a>
       <nav>
@@ -34,14 +35,15 @@
         <li class="item"><a href="tel:+11(000)111-11-11" class="contacts">+11(000)111-11-11</a></li>
       </ul>
       </div>
+    </nav>
       <!--header-->
     </header>
     <main>
       <!--section 1-->
-      <section class="hero">
+      <div class="container_hero">
         <h1 class="hero-title">Effective Solutions for Your Business</h1>
         <button type="button" class="main-button">Order Service</button>
-      </section>
+      </div>
       <section>
         <h2 class="feature">Feature</h2>
 
@@ -81,8 +83,8 @@
         </ul>
       </section>
       <!--section 2-->
-      <section class="section-list">
-        <h2 class="card-title">What are we doing</h2>
+      <div class="section-list">
+        <h2 class="card-title-head">What are we doing</h2>
         <ul class="card-title_list">
           <li>
             <img src="images/monitor.jpg" width="360" height="300" alt="img1" />
@@ -95,8 +97,9 @@
           </li>
         </ul>
         <!--section 3-->
-      </section>
-      <section class="team-list">
+      </div>
+      <section>
+        <div class="team-list">
         <h2 class="card-title_team">Our Team</h2>
         <ul class="flex_container">
           <li class="team-list-item">
@@ -106,8 +109,10 @@
               height="260"
               alt="Mark Guerro"
             />
+            <div class="card-content">
             <h3 class="card-title">Mark Guerro</h3>
             <p class="card-text">Product Designer</p>
+            </div>
           </li>
           <li class="team-list-item">
             <img
@@ -116,8 +121,10 @@
               height="260"
               alt="Fronted developer"
             />
+            <div class="card-content">
             <h3 class="card-title">Tom Ford</h3>
-            <p class="card-title">Fronted developer</p>
+            <p class="card-text">Fronted developer</p>
+          </div>
           </li>
           <li class="team-list-item">
             <img
@@ -126,29 +133,39 @@
               height="260"
               alt="Marketing"
             />
+            <div class="card-content">
             <h3 class="card-title">Camila Garcia</h3>
             <p class="card-text">Marketing</p>
+          </div>
           </li>
           <li class="team-list-item">
             <img
               src="images/Daniel_Wilson.jpg"
               width="264"
               height="260"
-              alt="UI Designer"
-            />
-            <h3 class="card-title">Daniel Wilson</h3>
-            <p class="card-text">UI Designer</p>
+              alt="UI Designer"/>
+              
+            <div class="card-content">
+              <h3 class="card-title">Daniel Wilson</h3>
+              <p class="card-text">UI Designer</p>
+            </div>
           </li>
         </ul>
+      </div>
       </section>
       <!--footer-->
     </main>
-    <footer class="footer">
-      <a href="./index.html" class="foot-logo"><span class="low-logo">web</span>studio</a>
-      <p class="footer-text">
-        Increase the flow of customers and sales for your business with digital
-        marketing & growth solutions.
-      </p>
+    <footer>
+      <div class="footer">
+        <div class="container_footer">
+          <div>
+         <a href="./index.html" class="foot-logo"><span class="low-logo">web</span>studio</a>
+         <p class="footer-text"> Increase the flow of customers and sales for your business with digital
+              marketing & growth solutions.
+         </p>
+        </div>
+        </div>
+      </div>
     </footer>
   </body>
 </html>
