@@ -266,7 +266,10 @@ img{
     color: #ffffff;
     margin-bottom: 48px; 
     margin-top: 192px;
-            
+    margin-left: 474px;
+    margin-right: 474px;
+    padding: 0px 110px;
+    
 }
 .feature, .pbl{
     visibility: hidden;
