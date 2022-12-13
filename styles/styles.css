@@ -30,6 +30,13 @@ body {
     background-color: #ffffff;
     
 }
+.container{ 
+    width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
 .logo {
     display: block;
     font-family: 'Raleway';
@@ -66,8 +73,7 @@ body {
 .main-nav {
     display: flex;
     align-items: center;
-    text-shadow: 0 4px 4px black;
-}
+    }
 .site-nav {
     display: flex;  
     margin: 0; 
@@ -85,9 +91,6 @@ body {
 
 .nav-links {
     display: block;
-    padding-top: 24px;
-    padding-bottom: 24px;
-    
     font-family: 'Roboto';
     font-weight: 600;
     font-size: 16px;
@@ -99,8 +102,7 @@ body {
         display: flex;
         margin: 0;
         margin-left: auto;
-        padding-top: 24px;
-        padding-bottom: 24px;
+        
       }
     .mail .item{ 
         margin-left: 40px;
@@ -159,7 +161,7 @@ button:focus {
 .card-title_1 {
     font-family: 'Roboto';
     font-style: normal;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 20px;
     line-height: 24px;
     margin: 0;
@@ -179,17 +181,14 @@ button:focus {
 .main-button {
     background-color: var(--primary-brand);
     color: #ffffff;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 24px;
-    letter-spacing: 2%;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
     cursor: pointer;
     border: none;
     padding: 16px 32px;
     border-radius: 4px;
-    margin-bottom: 192px;
     margin-left: auto;
     margin-right: auto;
 
@@ -205,20 +204,22 @@ button:focus {
     margin: 0;
     padding-top: 120px;
     padding-bottom: 120px;
+    margin-left: auto;
+    margin-right: auto;
     }
 .feature_list .item {
     width: 264px;
     margin-right: 24px;
    }
-   .section_2{
-    padding-bottom: 72px;
+   .section_wawd{
+    padding-bottom: 120px;
    }
 .section-list {  
     display: block;
     justify-content: center;
     align-items: center;
     margin: 0;
-    margin-bottom: 120px;
+    
 }
 
 .card-title_list {
@@ -233,7 +234,7 @@ img{
     max-width: 100%;
     height: auto;
 }
-.section_3{
+.section_our-team{
     padding-top: 120px;
     padding-bottom: 120px;
 }
@@ -271,9 +272,9 @@ img{
         box-shadow: var(--card-shadow);
         }
 .card-content{
-    margin: 32px 16px;
+    
     display: flex;
-    align-items: center;
+    text-align: center;
     flex-direction: column;
 }  
 .card-title{
@@ -282,34 +283,33 @@ img{
 .card-text{
     margin: 0;
     }
-.section_1 { 
+.section_hero { 
     padding-top: 192px;
     padding-bottom: 192px;
-}
-.container_hero { 
     width: 1158px;
     padding-left: 15px;
     padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
-    height: 603px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     text-align: center;
     background-color: var(--dark);
-}
-.hero-title {
-    font-weight: 600;
+    font-weight: 700;
     font-size: 56px;
     line-height: 60px;
-    letter-spacing: 2%;
+    letter-spacing: 0.02em;
     color: #ffffff;
-     margin-top: 192px;
-     margin-bottom: 48px;
-     }
-.container_feature, .pbl
-{
+    margin-bottom: 48px;
+}
+.feature{
+    padding: 1128px 104px;
+
+}
+.container_feature
+{   width: 1150px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
     visibility: hidden;
 }
 .section-page{
@@ -326,7 +326,7 @@ img{
     display: flex;
     justify-content: center;
     gap: 24px;
-    margin-bottom: 72px;
+    
 }
 
 .portfolio-btn_item {
@@ -339,8 +339,7 @@ img{
     }
 .portfolio-cards_list {
     padding: 0;
-    margin: 0;
-    padding-bottom: 120px;
+       padding-bottom: 120px;
     list-style: none;
     display: flex;
     flex-wrap: wrap;
@@ -348,31 +347,25 @@ img{
     row-gap: 48px;
     flex-wrap: wrap;
     flex-basis: calc(100% / 3);
-    
-}
-.portfolio-cards_item {
+    }
+    .portfolio-cards_item {
     flex-basis: calc((100% - 2 * 24px) / 3) ;
     box-shadow: var(--card-shadow);
     border-radius: 10px;
     overflow: hidden;
 }
-.card-content{
-    margin-top: 32px;
-    padding-left: 16px;
-}
 .card-title{
     font-family: 'Roboto';
     font-style: "semibold";
-    font-weight: 600;
+    font-weight: 500;
     font-size: 20px;
     line-height: 24px;
     letter-spacing: 2%;
-    
+        
 }
 .card-text{
-    font-family: 'Roboto';
     font-style: "regular";
-    font-weight: 600;
+    font-weight: 500;
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 2%;
@@ -392,8 +385,7 @@ img{
     margin-left: auto;
     margin-right: auto;   
    }
- 
-.footer-text {
+ .footer-text {
     margin: 0;
     margin-top: 16px;
     color: var(--accent);
