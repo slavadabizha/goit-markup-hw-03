@@ -29,14 +29,15 @@ body {
     color: var(--text);
     background-color: #ffffff;
 }
+.container{
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
 .main-nav
 {   
     display: flex;
     align-items: center;
-    padding-left: 156px;
-    padding-right: 156px;
-    margin-left: auto;
-    margin-right: auto;
     box-shadow: var(--card-shadow);
     }
 .logo {
@@ -72,13 +73,11 @@ body {
     margin: 0; 
     margin-left: 77px; 
 }
-.site-nav { gap: 40px;
+.site-nav {
+    gap: 40px;
     padding: 0;
    
     }
-.site-nav .item:last-child {
-    margin-right: 0px;
-}
 .nav-links {
     display: block;
     padding-top: 24px;
@@ -94,6 +93,7 @@ body {
     display: flex;
     margin: 0;
     margin-left: auto;
+    padding: 0;
     padding-top: 24px;
     padding-bottom: 24px;
     font-family: 'Roboto';     
@@ -123,31 +123,31 @@ body {
 ul {
     list-style-type: none;
 }
-.hero {
-    margin-bottom: 120px;
-}
-.container_hero { 
-    padding: 192px 15px;
-    margin-left: auto;
-    margin-right: auto;
+.hero { 
+    padding: 192px 0 291px;
+    text-align: center;
+    max-width: 1440px;  
     min-height: 603px;
+    margin-left: auto;
+    margin-right: auto;    
     display: flex;
     flex-direction: column;
     justify-content: center;
-    text-align: center;
+    
     background-color: var(--dark);
 }
 .hero-title {
     width: 492px; 
-    font-weight: 700px;
+    font-family: 'Roboto';
+    font-weight: 500px;
     font-size: 56px;
-    line-height: 60px;
-    letter-spacing: 2%;
+    line-height: 1.07;
+    letter-spacing: 0.02;
     color: #ffffff;
     margin: 0 auto 48px auto;
     }
 button 
-{
+{   
     background-color: var(--light);
     color: var(--primary-brand);
     font-family: 'Roboto';
@@ -190,12 +190,12 @@ button:focus {
     font-weight: 500;
     font-size: 16px;
     line-height: 18.75px;
-    letter-spacing: 4%;
+    letter-spacing: 0.04em;
     cursor: pointer;
     border: none;
     padding: 16px 32px;
     border-radius: 4px;
-    margin-bottom: 192px;
+    
     margin-left: auto;
     margin-right: auto;
 }
@@ -208,19 +208,24 @@ button:focus {
     display: flex;
     justify-content: center;
     margin: 0;
+    margin-top: 120px;
     margin-bottom: 120px;
     padding: 0;
     gap: 24px;
     }
+    .card-text{
+        font-family: 'Roboto';
+        font-style: 'regular';
+        font-size: 16px;
+        line-height: 24px;
+        line-height: 1.28em;
+        vertical-align: 'Top';
+        letter-spacing: 0.02em;
+    }
 .feature_list .item {
     width: 264px;
     }
-.section-list {  
-    display: block;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 120px;
-}
+
 .card-title_list {
     display: flex;
     justify-content: center;
@@ -228,15 +233,15 @@ button:focus {
     margin: 0;
     padding: 0;
     gap: 24px;
+    margin-bottom: 120px;
 }
 img{
     display: block;
     max-width: 100%;
     height: auto;
 }
-.team-list {
-    margin-left: auto;
-    margin-right: auto;
+.team-list 
+{
     height: 732px;
     background-color: var(--light);
     }
@@ -248,7 +253,7 @@ img{
     font-weight: 500;
      font-size: 36px;
      line-height: 40px;
-     letter-spacing: 2%;
+     letter-spacing: 0.02em;
      color: #2E2F42;
     }
 .our_team
@@ -259,7 +264,7 @@ img{
     font-weight: 500;
      font-size: 36px;
      line-height: 40px;
-     letter-spacing: 2%;
+     letter-spacing: 0.02em;
      color: #2E2F42;
     margin: 0;
 }
@@ -299,7 +304,6 @@ img{
     padding: 0;
     margin-bottom: 72px;
 }
-
 .portfolio-btn {
     line-height: 1.5;
     font-size: 16px;
@@ -340,15 +344,12 @@ img{
     background-color: var(--dark);
     padding-top: 100px;
     padding-bottom: 100px;
-    padding-left: 156px;   
-    }
-.container_footer {
-    width: 264px;
-}  
+ }
 .footer-text {
     color: var(--accent);
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 25%;
     margin-top: 16px;
+    width: 264px;
 }
