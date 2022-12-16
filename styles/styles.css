@@ -195,7 +195,6 @@ button:focus {
     border: none;
     padding: 16px 32px;
     border-radius: 4px;
-    
     margin-left: auto;
     margin-right: auto;
 }
@@ -225,7 +224,6 @@ button:focus {
 .feature_list .item {
     width: 264px;
     }
-
 .card-title_list {
     display: flex;
     justify-content: center;
@@ -290,7 +288,7 @@ img{
     padding-top: 96px;
     padding-bottom: 120px;
 }
-.container_btn {
+.filters {
     width: 1158px;
     padding: 96px 15px 120px 15px;
     margin-left: auto;
