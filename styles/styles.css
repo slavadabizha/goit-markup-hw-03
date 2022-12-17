@@ -203,22 +203,23 @@ button:focus {
     background-color: #404BBF;
     color: #ffffff
 }
-.feature_list {
-    display: flex;
-    justify-content: center;
-    margin: 0;
-    padding: 0;
+.feature {
     padding-top: 120px;
     padding-bottom: 120px;
+}
+.feature_list {
+    margin: 0;
+    display: flex;
+    justify-content: center;
     gap: 24px;
     }
     .card-text{
         font-family: 'Roboto';
-        font-style: 'regular';
+        
         font-size: 16px;
-        line-height: 24px;
-        line-height: 1.28;
-        vertical-align: 'Top';
+    
+        line-height: 1.5;
+        
         letter-spacing: 0.02em;
     }
 .feature_list .item {
@@ -231,7 +232,7 @@ button:focus {
     margin: 0;
     padding: 0;
     gap: 24px;
-    margin-bottom: 120px;
+    padding-bottom: 120px;
 }
 img{
     display: block;
@@ -239,9 +240,10 @@ img{
     height: auto;
 }
 .team-list 
-{
+{   padding-top: 120px;
     height: 732px;
     background-color: var(--light);
+    
     }
 .What_are_we_doing
 { 
@@ -257,14 +259,14 @@ img{
 .our_team
  {
     text-align: center;
-    padding-top: 120px;
-    padding-bottom: 72px;
+    margin: 0;
+    margin-bottom: 72px;
     font-weight: 500;
      font-size: 36px;
      line-height: 40px;
      letter-spacing: 0.02;
      color: #2E2F42;
-    margin: 0;
+    
 }
 .flex_container {
      display: flex;
